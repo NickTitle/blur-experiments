@@ -21,6 +21,9 @@
 		8E35E8B016E93C9B001C95DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E35E89116E93C9B001C95DC /* Foundation.framework */; };
 		8E35E8B816E93C9B001C95DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E35E8B616E93C9B001C95DC /* InfoPlist.strings */; };
 		8E35E8BB16E93C9B001C95DC /* blur_test_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E35E8BA16E93C9B001C95DC /* blur_test_1Tests.m */; };
+		8E35E8C616E93D01001C95DC /* BlurSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E35E8C516E93D01001C95DC /* BlurSwitchViewController.m */; };
+		8E35E8C816E93E87001C95DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E35E8C716E93E87001C95DC /* QuartzCore.framework */; };
+		8E35E8CA16E93F8A001C95DC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E35E8C916E93F8A001C95DC /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		8E35E8B716E93C9B001C95DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E35E8B916E93C9B001C95DC /* blur_test_1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blur_test_1Tests.h; sourceTree = "<group>"; };
 		8E35E8BA16E93C9B001C95DC /* blur_test_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blur_test_1Tests.m; sourceTree = "<group>"; };
+		8E35E8C416E93D01001C95DC /* BlurSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlurSwitchViewController.h; path = Classes/BlurSwitchViewController.h; sourceTree = "<group>"; };
+		8E35E8C516E93D01001C95DC /* BlurSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlurSwitchViewController.m; path = Classes/BlurSwitchViewController.m; sourceTree = "<group>"; };
+		8E35E8C716E93E87001C95DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8E35E8C916E93F8A001C95DC /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E35E8C816E93E87001C95DC /* QuartzCore.framework in Frameworks */,
 				8E35E89016E93C9B001C95DC /* UIKit.framework in Frameworks */,
 				8E35E89216E93C9B001C95DC /* Foundation.framework in Frameworks */,
 				8E35E89416E93C9B001C95DC /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +90,7 @@
 		8E35E88316E93C9B001C95DC = {
 			isa = PBXGroup;
 			children = (
+				8E35E8C916E93F8A001C95DC /* test.jpg */,
 				8E35E89516E93C9B001C95DC /* blur-test-1 */,
 				8E35E8B316E93C9B001C95DC /* blur-test-1Tests */,
 				8E35E88E16E93C9B001C95DC /* Frameworks */,
@@ -101,6 +110,7 @@
 		8E35E88E16E93C9B001C95DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E35E8C716E93E87001C95DC /* QuartzCore.framework */,
 				8E35E88F16E93C9B001C95DC /* UIKit.framework */,
 				8E35E89116E93C9B001C95DC /* Foundation.framework */,
 				8E35E89316E93C9B001C95DC /* CoreGraphics.framework */,
@@ -115,6 +125,8 @@
 				8E35E89E16E93C9B001C95DC /* AppDelegate.h */,
 				8E35E89F16E93C9B001C95DC /* AppDelegate.m */,
 				8E35E89616E93C9B001C95DC /* Supporting Files */,
+				8E35E8C416E93D01001C95DC /* BlurSwitchViewController.h */,
+				8E35E8C516E93D01001C95DC /* BlurSwitchViewController.m */,
 			);
 			path = "blur-test-1";
 			sourceTree = "<group>";
@@ -227,6 +239,7 @@
 				8E35E8A216E93C9B001C95DC /* Default.png in Resources */,
 				8E35E8A416E93C9B001C95DC /* Default@2x.png in Resources */,
 				8E35E8A616E93C9B001C95DC /* Default-568h@2x.png in Resources */,
+				8E35E8CA16E93F8A001C95DC /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +276,7 @@
 			files = (
 				8E35E89C16E93C9B001C95DC /* main.m in Sources */,
 				8E35E8A016E93C9B001C95DC /* AppDelegate.m in Sources */,
+				8E35E8C616E93D01001C95DC /* BlurSwitchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

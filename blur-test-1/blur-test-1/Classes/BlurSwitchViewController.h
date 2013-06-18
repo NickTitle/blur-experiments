@@ -10,4 +10,6 @@
 
 @interface BlurSwitchViewController : UIViewController
 
+@property (nonatomic, retain) UIImageView *blurView;
+
 @end
